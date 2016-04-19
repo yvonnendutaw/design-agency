@@ -1,0 +1,6 @@
+body {
+    background: #41d7f8;
+    background-image: url("ZenBG-1.png"), url("ZenBG-2.png");
+    background-repeat: repeat-x, repeat;
+    height: 30%;
+}
