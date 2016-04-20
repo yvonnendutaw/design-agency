@@ -1,22 +1,26 @@
 body {
-    background-image: url(../img/White-Interior-Design-Ideas.jpg);
+    background-color: white;
     background-attachment: fixed;
     background-size: cover;
     height: 12em;
 }
+
+/*
 #home {
-    background-image: url(../img/interior_design_image1423034865.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 12em;
 }
+*/
+
 .row {
     max-width: 100%;
 }
 .hero {
     position: relative;
-    height: 100vh;
+    height: 50vh;
     color: #fff;
+    width: 100%;
     font-family: Lato;
     text-align: center;
     background-image: url(../img/White-Interior-Design-Ideas.jpg);
@@ -59,8 +63,11 @@ body {
         background-position: 0 0;
     }
     to {
-        background-position: 600px 0;
+        background-position: 100% 0;
     }
+}
+.container {
+    width: 100%;
 }
 .overlay {
     position: absolute;
@@ -74,7 +81,7 @@ body {
 }
 .menu {
     line-height: 1;
-    margin: 0 auto 3em;
+    margin: 0 auto 2em;
 }
 .menu__list {
     position: relative;
