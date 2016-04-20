@@ -2,7 +2,7 @@ body {
     background-color: white;
     background-attachment: fixed;
     background-size: cover;
-    height: 12em;
+    margin: 0;
 }
 
 /*
@@ -38,6 +38,7 @@ body {
     &__heading {
         font-size: 3rem;
         line-height: 1.5;
+        padding: 7em;
     }
     &__summary {
         margin-top: 20px;
@@ -63,11 +64,12 @@ body {
         background-position: 0 0;
     }
     to {
-        background-position: 100% 0;
+        background-position: 700px 0;
     }
 }
 .container {
     width: 100%;
+    margin: 0;
 }
 .overlay {
     position: absolute;
@@ -81,7 +83,7 @@ body {
 }
 .menu {
     line-height: 1;
-    margin: 0 auto 2em;
+    margin: 0 auto 0em auto;
 }
 .menu__list {
     position: relative;
@@ -92,10 +94,12 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    float: right;
 }
 .menu__item {
     display: block;
     margin: 1em 0;
+    float: right;
 }
 .menu__link {
     font-size: 1.05em;
@@ -235,3 +239,19 @@ body {
 }
 
 /* End: Horatio Styles */
+
+.blank {
+    height: 20vh;
+}
+.blnk {
+    background-color: blue;
+    float: left;
+    width: 33%;
+    height: 30vh;
+}
+.blan {
+    background-color: green;
+    float: right;
+    width: 33%;
+    height: 30vh;
+}
