@@ -160,6 +160,73 @@ body {
         transform: none;
     }
 }
+.row.nav-bar {
+    margin: 0em;
+}
+.hero {
+    position: relative;
+    height: 50vh;
+    color: #fff;
+    width: 100%;
+    font-family: Lato;
+    text-align: center;
+    background-image: url(../img/White-Interior-Design-Ideas.jpg);
+    animation: animatedBackground 20s linear infinite;
+}
+hero__inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+hero__heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 7em;
+}
+hero__summary {
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+hero__link {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 20px;
+    width: auto;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    transition: all 0.3s ease;
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+}
+
+}
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 700px 0;
+    }
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(16, 0, 0, 0.58);
+    /*dim the background*/
+}
 .row {
     max-width: 100%;
+    margin: 0em;
 }
