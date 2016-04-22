@@ -4,83 +4,6 @@ body {
     background-size: cover;
     margin: 0;
 }
-
-/*
-#home {
-    background-attachment: fixed;
-    background-size: cover;
-    height: 12em;
-}
-*/
-
-.row {
-    max-width: 100%;
-}
-.hero {
-    position: relative;
-    height: 50vh;
-    color: #fff;
-    width: 100%;
-    font-family: Lato;
-    text-align: center;
-    background-image: url(../img/White-Interior-Design-Ideas.jpg);
-    animation: animatedBackground 20s linear infinite;
-    &__inner {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        width: 50%;
-        height: 50%;
-    }
-    &__heading {
-        font-size: 3rem;
-        line-height: 1.5;
-        padding: 7em;
-    }
-    &__summary {
-        margin-top: 20px;
-        font-size: 1.6rem;
-    }
-    &__link {
-        display: inline-block;
-        margin-top: 40px;
-        padding: 15px 20px;
-        width: auto;
-        color: #fff;
-        text-decoration: none;
-        border: 2px solid #fff;
-        transition: all 0.3s ease;
-        &:hover {
-            background: #fff;
-            color: #000;
-        }
-    }
-}
-@keyframes animatedBackground {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 700px 0;
-    }
-}
-.container {
-    width: 100%;
-    margin: 0;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-color: rgba(16, 0, 0, 0.58);
-    /*dim the background*/
-}
 .menu {
     line-height: 1;
     margin: 0 auto 0em auto;
@@ -237,21 +160,6 @@ body {
         transform: none;
     }
 }
-
-/* End: Horatio Styles */
-
-.blank {
-    height: 20vh;
-}
-.blnk {
-    background-color: blue;
-    float: left;
-    width: 33%;
-    height: 30vh;
-}
-.blan {
-    background-color: green;
-    float: right;
-    width: 33%;
-    height: 30vh;
+.row.nav-bar {
+    margin: 0em;
 }
