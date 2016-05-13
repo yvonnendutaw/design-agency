@@ -1,3 +1,17 @@
+.row {
+    max-width: 100%;
+    padding: 0em;
+    margin: 0em;
+}
+
+/*nav bar*/
+
+.section--menu {
+    position: relative;
+    overflow: hidden;
+    min-height: 10vh;
+    padding: 2em 0 8em;
+}
 .menu {
     line-height: 1;
     margin: 0 auto 0em;
@@ -39,7 +53,7 @@
     display: block;
     margin: 0 0em;
     text-align: center;
-    color: #929292;
+    color: white;
     -webkit-transition: color 0.4s;
     transition: color 0.4s;
 }
@@ -81,4 +95,50 @@
     transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+
+/*landing page
+*/
+
+.landing {
+    background-image: url(../img/Web-Design-from-Tree-Frog-International.png);
+    height: 100vh;
+    widows: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*overlay*/
+
+html,
+body {
+    min-height: 100%;
+}
+body {
+    position: relative;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    margin-left: 2em;
 }
