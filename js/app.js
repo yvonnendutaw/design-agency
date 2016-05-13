@@ -1,4 +1,5 @@
 $(document).foundation()
+    //menu style effects
     (function () {
 			[].slice.call(document.querySelectorAll('.menu')).forEach(function (menu) {
             var menuItems = menu.querySelectorAll('.menu__link'),
@@ -32,4 +33,38 @@ $(document).foundation()
                 }, 300);
             });
         });
-    })(window); < /script>
+    })(window);
+
+
+//shape hover effects
+(function () {
+
+    function init() {
+        var speed = 330,
+            easing = mina.backout;
+
+					[].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
+            var s = Snap(el.querySelector('svg')),
+                path = s.select('path'),
+                pathConfig = {
+                    from: path.attr('d'),
+                    to: el.getAttribute('data-path-hover')
+                };
+
+            el.addEventListener('mouseenter', function () {
+                path.animate({
+                    'path': pathConfig.to
+                }, speed, easing);
+            });
+
+            el.addEventListener('mouseleave', function () {
+                path.animate({
+                    'path': pathConfig.from
+                }, speed, easing);
+            });
+        });
+    }
+
+    init();
+
+})();

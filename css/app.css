@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Poiret One', cursive;
+    font-weight: 600;
 }
 
 /*nav bar*/
@@ -104,7 +105,7 @@ body {
 */
 
 .landing {
-    background-image: url(../img/Web-Design-from-Tree-Frog-International.png);
+    background-image: url(../img/bg-1.jpg);
     height: 100vh;
     widows: 100%;
     background-size: cover;
@@ -139,6 +140,7 @@ h3 {
     line-height: 1.4;
     letter-spacing: 4px;
     font-family: 'Poiret One', cursive;
+    font-weight: 700;
 }
 .button {
     background-color: transparent;
@@ -151,6 +153,7 @@ h3 {
     height: auto;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 30px;
 }
 .row .row {
     margin: 0em;
