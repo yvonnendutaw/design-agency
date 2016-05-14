@@ -193,3 +193,14 @@ footer li {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+footer {
+    text-align: center;
+    height: 20%;
+    background-color: #222;
+}
+footer i {
+    transition: color 1s;
+}
+footer i:hover {
+    transition: color 1s;
+}
