@@ -106,7 +106,7 @@ body {
 
 .landing {
     background-image: url(../img/bg-1.jpg);
-    height: 43em;
+    height: 100vh;
     background-size: cover;
     position: relative;
 }
@@ -179,17 +179,17 @@ hr {
 }
 footer {
     background-color: darkred;
-    height: 20vh;
+    height: 10vh;
 }
 footer li {
     display: inline-block;
     list-style: none;
 }
-footer .fa {
-    color: white;
-    font-size: 1em;
-}
 .portfolio {
     background-color: rgb(5, 4, 11);
     height: 80vh;
+}
+.content h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
