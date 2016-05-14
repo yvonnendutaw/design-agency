@@ -106,9 +106,13 @@ body {
 
 .landing {
     background-image: url(../img/bg-1.jpg);
-    height: 40em;
+    height: 43em;
     background-size: cover;
     position: relative;
+}
+.landing h1,
+h3 {
+    color: darkred;
 }
 
 /*overlay*/
@@ -133,7 +137,7 @@ h3 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: white;
+    color: darkred;
     margin-top: 0;
     margin-bottom: 1%;
     line-height: 1.4;
@@ -143,13 +147,13 @@ h3 {
 }
 .button {
     background-color: transparent;
-    border: solid 1px white;
+    border: solid 2px;
 }
 .about {
     background-image: url(../img/urban-geek-web-design-homepage-04.jpg);
     width: 100%;
     color: white;
-    height: auto;
+    height: 19.2em;
     background-size: cover;
     background-attachment: fixed;
     font-size: 30px;
@@ -162,15 +166,26 @@ hr {
 }
 .text-box {
     /*    border: solid 1px white;*/
-    padding: 3% 3% 3% 0%;
+    padding: 10% 3% 10% 3%;
     margin-top: %;
     background-color: rgba(0, 0, 0, 0.52);
 }
 .members h2 {
     margin-top: 2%;
     margin-bottom: 1%;
-    color: black;
 }
 .members {
     height: 100vh;
+}
+footer {
+    background-color: darkred;
+    height: 20vh;
+}
+footer li {
+    display: inline-block;
+    list-style: none;
+}
+footer .fa {
+    color: white;
+    font-size: 1em;
 }
