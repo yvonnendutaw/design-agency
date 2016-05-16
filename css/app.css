@@ -200,7 +200,12 @@ footer {
 }
 footer i {
     transition: color 1s;
+    color: whitesmoke;
+    margin: 5%;
 }
 footer i:hover {
     transition: color 1s;
+}
+.white {
+    color: whitesmoke;
 }
