@@ -135,7 +135,7 @@ h1,
 h2,
 h3 {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
     color: darkred;
     margin-top: 0;
@@ -173,9 +173,14 @@ hr {
 .members h2 {
     margin-top: 2%;
     margin-bottom: 1%;
+    color: #010e1d;
 }
 .members {
     height: 100vh;
+    background-color: #670000;
+}
+.content {
+    background-color: #2B3540;
 }
 .portfolio {
     background-color: whitesmoke;
@@ -189,7 +194,7 @@ hr {
 /*************************footer****************************/
 
 footer {
-    background-color: darkred;
+    background-color: #670000;
     height: 10vh;
 }
 footer li {
@@ -199,12 +204,13 @@ footer li {
 footer {
     text-align: center;
     height: 20%;
-    background-color: #222;
+    color: #010e1d;
 }
 footer i {
     transition: color 1s;
     color: whitesmoke;
     margin: 5%;
+    padding: 0 10% 10% 0;
 }
 footer i:hover {
     transition: color 1s;
