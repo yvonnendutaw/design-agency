@@ -177,6 +177,17 @@ hr {
 .members {
     height: 100vh;
 }
+.portfolio {
+    background-color: whitesmoke;
+    height: auto;
+}
+.content h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*************************footer****************************/
+
 footer {
     background-color: darkred;
     height: 10vh;
@@ -184,14 +195,6 @@ footer {
 footer li {
     display: inline-block;
     list-style: none;
-}
-.portfolio {
-    background-color: rgb(5, 4, 11);
-    height: 80vh;
-}
-.content h2 {
-    margin-top: 2%;
-    margin-bottom: 2%;
 }
 footer {
     text-align: center;
