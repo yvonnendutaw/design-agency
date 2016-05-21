@@ -153,7 +153,7 @@ h3 {
     background-image: url(../img/urban-geek-web-design-homepage-04.jpg);
     width: 100%;
     color: white;
-    height: 19.2em;
+    height: 98vh;
     background-size: cover;
     background-attachment: fixed;
     font-size: 30px;
@@ -165,10 +165,10 @@ hr {
     width: 50%;
 }
 .text-box {
-    /*    border: solid 1px white;*/
-    padding: 10% 3% 10% 3%;
+    padding: 10% 30% 10% 2.6%;
     margin-top: %;
     background-color: rgba(0, 0, 0, 0.52);
+    float: left;
 }
 .members h2 {
     margin-top: 2%;
