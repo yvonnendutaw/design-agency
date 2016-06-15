@@ -2,6 +2,7 @@
     max-width: 100%;
     padding: 0em;
     margin: 0em;
+	
 }
 body {
     font-family: 'Poiret One', cursive;
@@ -66,7 +67,7 @@ body {
     color: #fff;
 }
 .menu--sebastian .menu__item--current .menu__link {
-    color: #d94f5c;
+    color: rgba(255, 0, 0, 0.52);
 }
 .menu--sebastian .menu__link::before,
 .menu--sebastian .menu__link::after {
