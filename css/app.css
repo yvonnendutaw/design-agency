@@ -116,22 +116,7 @@ h3 {
     color: darkred;
 }
 
-/*overlay*/
 
-
-/*
-
-*/
-
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-    background-color: rgba(186, 0, 0, 0.73);
-}
 h1,
 h2,
 h3 {
@@ -154,7 +139,7 @@ h3 {
     background-image: url(../img/urban-geek-web-design-homepage-04.jpg);
     width: 100%;
     color: white;
-    height: 98vh;
+    height: auto;
     background-size: cover;
     background-attachment: fixed;
     font-size: 30px;
@@ -166,10 +151,14 @@ hr {
     width: 50%;
 }
 .text-box {
-    padding: 10% 30% 10% 2.6%;
-    margin-top: %;
-    background-color: rgba(0, 0, 0, 0.52);
-    float: left;
+
+	height: 100%;
+/*    background-color: rgba(229, 8, 8, 0.94);*/
+
+}
+.textt{
+	    padding: 10%;
+	    background-color: rgba(84, 67, 59, 0.56);
 }
 .members h2 {
     margin-top: 2%;
@@ -192,7 +181,7 @@ hr {
     margin-bottom: 2%;
 }
 
-/*************************footer****************************/
+/*************************footer***************************
 
 footer {
     background-color: #670000;
